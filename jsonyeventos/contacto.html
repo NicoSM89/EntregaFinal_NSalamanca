@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Formulario de Contacto</title>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+</head>
+<!-- INICIO HEADER -->
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="ten columns">
+                <a href="/" class="navbar-brand"><img src="../img/logo.jpg" id="logo" alt=""></a>
+            </div>
+        </div> 
+    </div>
+    </header>
+<!-- FIN DE HEADER -->
+
+<!-- FACHADA WEB -->
+<body>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Clases de fotografía</h2>
+                                <p>Todos los cursos en oferta</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Cursos en línea <br>
+                        Explora  los temas más recientes</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Fotógrafos profesionales <br>
+                        Aprende todo acerca de la fotografía</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Acceso de por vida <br>
+                        Aprende a tu ritmo</p>
+                    </div>
+            </div>
+        </div>
+</div>
+<!-- FIN DE FACHADA WEB -->
+
+<!-- INICIO FORMULARIO DE CONTACTO -->
+    <form action="" id="formInicial">
+        <h1 class="formulario__titulo">Contáctanos</h1>
+        <input type="text" name="name" class="formulario__input">
+        <label for="" class="formulario__label">Nombre</label>
+        <input type="text" name="correo" class="formulario__input">
+        <label for="" class="formulario__label" id="email">Correo</label>
+        <input type="number" name="celular" class="formulario__input">
+        <label for="" class="formulario__label">Celular</label>
+        <input type="text" name="mensaje" class="formulario__input">
+        <label for="" class="formulario__label">Mensaje</label>
+
+        <button id="btn1" class="formulario__submit">Enviar</button>
+    </form>
+<!-- FIN DE FORMULARIO DE CONTACTO -->
+
+<!-- FOOTER O PIE DE PÁGINA -->
+    <footer id="footer" class="footer">
+        <div class="container text-center align-items-center">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="https://www.instagram.com/">Instagram</a>
+                                <a class="enlace" href="https://cl.linkedin.com/">LinkedIN</a>
+                                <a class="enlace" href="https://www.facebook.com/">Facebook</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="cursosdisponibles" href="../cursosdisponibles.html" target="_blank">Cursos Disponibles</a>
+                                <a class="contacto" href="../jsonyeventos/contacto.html" target="_blank">Contacto</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+<!-- FIN DE FOOTER O PIE DE PÁGINA -->
+
+<!-- ENLACE JS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="contact.js"></script>
+<!-- FIN ENLACE JS -->
+</body>
+</html>

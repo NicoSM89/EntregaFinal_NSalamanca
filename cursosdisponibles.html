@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cursos Disponibles</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+    
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="ten columns">
+                <a href="/" class="navbar-brand"><img src="../img/logo.jpg" id="logo" alt=""></a>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+<body>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Clases de fotografía</h2>
+                                <p>Todos los cursos en oferta</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría Aprender?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Cursos en línea <br>
+                        Explora  los temas más recientes</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Fotógrafos profesionales <br>
+                        Aprende todo acerca de la fotografía</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Acceso de por vida <br>
+                        Aprende a tu ritmo</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+            <h3>Cursos Disponibles</h3>
+            <hr>
+            <div class="row" id="items"></div>
+
+    </div>
+
+    <template id="template-card">
+        <div class="col-12 mb-2 col-md-4">
+            <div class="card">
+                <img src="" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5>Titulo</h5>
+                    CLP $<p>Precio</p>
+                    <!-- <button class="btn btn-dark">Comprar</button> -->
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    <footer id="footer" class="footer">
+        <div class="container text-center align-items-center">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="https://www.instagram.com/">Instagram</a>
+                                <a class="enlace" href="https://cl.linkedin.com/">LinkedIN</a>
+                                <a class="enlace" href="https://www.facebook.com/">Facebook</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="cursosdisponibles" href="./cursosdisponibles.html" target="_blank">Cursos Disponibles</a>
+                                <a class="contacto" href="./jsonyeventos/contacto.html" target="_blank">Contacto</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script src="cursosdis.js"></script>
+</body>
+</html>

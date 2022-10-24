@@ -1,0 +1,38 @@
+[
+  {
+    "precio": 10000,
+    "id": 1,
+    "title": "Curso Fotografía Inicial",
+    "thumbnailUrl": "https://i.ibb.co/8zPq9mG/curso1.jpg"
+  },
+  {
+    "precio": 15000,
+    "id": 2,
+    "title": "Curso fotografía intermedio",
+    "thumbnailUrl": "https://i.ibb.co/1Zh6yP3/curso2.jpg"
+  },
+  {
+    "precio": 20000,
+    "id": 3,
+    "title": "Curso fotografía avanzada",
+    "thumbnailUrl": "https://i.ibb.co/9TRF6Qs/curso3.jpg"
+  },
+  {
+    "precio": 15000,
+    "id": 4,
+    "title": "Curso de composición",
+    "thumbnailUrl": "https://i.ibb.co/4jHs84M/curso4.jpg"
+  },
+  {
+    "precio": 25000,
+    "id": 5,
+    "title": "Curso Photoshop completo",
+    "thumbnailUrl": "https://i.ibb.co/gtW521v/curso5.jpg"
+  },
+  {
+    "precio": 20000,
+    "id": 6,
+    "title": "Curso Lightroom completo",
+    "thumbnailUrl": "https://i.ibb.co/wB63Yrn/curso6.jpg"
+  }
+]
